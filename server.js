@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const path = require('path');
+require("dotenv").config();
 
 const items = require('./routes/api/items');
 
@@ -10,12 +11,9 @@ const app = express();
 //Bodyparser Middleware
 app.use(bodyParser.json());
 
-// DB Config
-const db = require('./configs/keys').mongoURI;
-
 // Connect to Mongo
 mongoose
-    .connect(db)
+    .connect(process.env.MONGO_URI)
     .then(() => console.log("MongoDB Connected..."))
     .catch(err => console.log(err));
 
