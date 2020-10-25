@@ -31,12 +31,13 @@ Personal Cloud-based shopping list.
 ### Technologies Utilized
 ![GitHub language count](https://img.shields.io/github/languages/count/chrisjmckeown/shopping_list?style=flat-square)![GitHub top language](https://img.shields.io/github/languages/top/chrisjmckeown/shopping_list?style=flat-square)
 
-"Remove unwanted badges"
 <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 ## Usage
 Once installed:
-* Create and delete notes.
+* Create and delete shopping items.
+
+<img src="./Assets/shopping_list.png" alt="Shopping List"> 
 
 ### Heroku Deployment
 
@@ -52,11 +53,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
 ## Tests
-Use <a href="https://www.postman.com/downloads/" target="_blank">Postman</a> to test these end points:
-* Get all:- http://localhost:5000/api/items
-* Get by id:- http://localhost:5000/api/items:id
-* Post:- http://localhost:5000/api/items
-* Delete:- http://localhost:5000/api/items
+Add and remove items.
 
 ## Questions
     
